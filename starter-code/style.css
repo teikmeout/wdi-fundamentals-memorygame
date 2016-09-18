@@ -1,3 +1,60 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+body{
+	text-align: center;
+}
+h1{
+	color: rgb(2, 132, 130);
+}
+h2{
+	color: #ffd700;
+}
+nav {
+	background: #808080;
+}
+nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+	background: #ffbf00;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+/*this will change all the colors in all the <a> tags.. careful*/
+a:hover {
+	background: #ee5f3c;
+}
+footer{
+	clear: both;
+	background: #808080;
+}
+
+.board {
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+	float: left;
+	margin: 8%;
+}
+.card{
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	background-color: #ffff00;
+	border-radius: 10px;
+}
+/*modifying the SPAN with class id name on the footer*/
+.name {
+	/*height: 2em;*/
+	color: #ff0000;
+	/*font-variant: small-caps;*/
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
